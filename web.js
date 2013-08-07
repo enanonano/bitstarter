@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 var content = "Alex";
 fs = require('fs');
-fs.readFile('/etc/hosts', 'utf8', function (err,data) {
+fs.readFile('index.html', 'utf8', function (err,data) {
   if (err) {
     //return console.log(err);
  content = err;
